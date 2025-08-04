@@ -4,6 +4,14 @@ export const categoryType = defineType({
   name: 'category',
   title: 'Category',
   type: 'document',
+  
+  preview: {
+    select: {
+      title: 'name',
+      media: 'image'
+    }
+  },
+
   fields: [
     defineField({
       name: 'name',

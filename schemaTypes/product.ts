@@ -4,6 +4,40 @@ export const productType = defineType({
   name: 'product',
   title: 'Product',
   type: 'document',
+  orderings: [
+    {
+      title: 'Price, High to Low',
+      name: 'priceDesc',
+      by: [{ field: 'price', direction: 'desc' }]
+    },
+    {
+      title: 'Price, Low to High',
+      name: 'priceAsc',
+      by: [{ field: 'price', direction: 'asc' }]
+    },
+    {
+      title: 'Name, A-Z',
+      name: 'nameAsc',
+      by: [{ field: 'name', direction: 'asc' }]
+    },
+  ],
+
+  preview: {
+    select: {
+      title: 'name',
+      media: 'image',
+      category: 'category.name',
+      price: 'price'
+    },
+    prepare({ title, media, category, price }) {
+      return {
+        title,
+        subtitle: `${category ? category + ' – ' : ''}$${price}`,
+        media
+      }
+    }
+  },
+
   fields: [
     defineField({
       name: 'name',
@@ -60,22 +94,16 @@ export const productType = defineType({
       validation: (Rule) => Rule.min(0).max(5)
     }),
     defineField({
-      name: 'image',
-      title: 'Image',
-      type: 'image',
-      options: { hotspot: true }
-    }),
-    defineField({
-      name: 'imgHover',
-      title: 'Hover Image',
-      type: 'image',
-      options: { hotspot: true }
+      name: 'images',
+      title: 'Product Images',
+      type: 'array',
+      of: [{ type: 'image', options: { hotspot: true } }],
     }),
     defineField({
       name: 'category',
       title: 'Category',
       type: 'reference',
-      to: [{type: 'category'}],
+      to: [{ type: 'category' }],
       validation: (rule) => rule.required(),
     }),
   ],
