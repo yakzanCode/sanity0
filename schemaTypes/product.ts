@@ -25,15 +25,15 @@ export const productType = defineType({
   preview: {
     select: {
       title: 'name',
-      media: 'image',
+      images: 'images',
       category: 'category.name',
       price: 'price'
     },
-    prepare({ title, media, category, price }) {
+    prepare({ title, images, category, price }) {
       return {
         title,
-        subtitle: `${category ? category + ' – ' : ''}$${price}`,
-        media
+        subtitle: `${category ? category + ' – ' : ''}$${price} || 0`,
+        media: images && images.length > 0 ? images[0] : undefined
       }
     }
   },
