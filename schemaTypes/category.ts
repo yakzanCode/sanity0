@@ -1,10 +1,11 @@
 import { defineField, defineType } from 'sanity'
+import { seoType } from './objects/seo'
 
 export const categoryType = defineType({
   name: 'category',
   title: 'Category',
   type: 'document',
-  
+
   preview: {
     select: {
       title: 'name',
@@ -26,6 +27,7 @@ export const categoryType = defineType({
       options: {
         source: 'name',
         maxLength: 96,
+        isUnique: (slug, ctx) => ctx.defaultIsUnique(slug, ctx)
       },
       validation: (rule) => rule.required(),
     }),
@@ -40,5 +42,13 @@ export const categoryType = defineType({
       type: 'image',
       options: { hotspot: true },
     }),
+
+    // ✅ Reusable SEO object
+    defineField({
+      name: 'seo',
+      title: 'SEO',
+      type: 'seo',
+    }),
   ],
 })
+

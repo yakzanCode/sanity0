@@ -1,4 +1,5 @@
 import { defineType, defineField } from 'sanity'
+import { seoType } from './objects/seo'
 
 export const productType = defineType({
   name: 'product',
@@ -32,7 +33,7 @@ export const productType = defineType({
     prepare({ title, images, category, price }) {
       return {
         title,
-        subtitle: `${category ? category + ' – ' : ''}$${price} || 0`,
+        subtitle: `${category ? category + ' – ' : ''}$${price?.toFixed(2) || '0.00'}`,
         media: images && images.length > 0 ? images[0] : undefined
       }
     }
@@ -50,8 +51,9 @@ export const productType = defineType({
       title: 'Slug',
       type: 'slug',
       options: {
-        source: 'name', // Automatically generates slug from product name
-        maxLength: 96
+        source: 'name', 
+        maxLength: 96,
+        isUnique: (slug, ctx) => ctx.defaultIsUnique(slug, ctx)
       },
       validation: (Rule) => Rule.required()
     }),
@@ -105,6 +107,13 @@ export const productType = defineType({
       type: 'reference',
       to: [{ type: 'category' }],
       validation: (rule) => rule.required(),
+    }),
+
+    // ✅ Reusable SEO object
+    defineField({
+      name: 'seo',
+      title: 'SEO',
+      type: 'seo',
     }),
   ],
 })
