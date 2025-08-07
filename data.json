@@ -1,579 +1,410 @@
-
-
-{
-"C:/Users/yakza/Desktop/Male/studio-male>curl": "https://x2ba2fw9.api.sanity.io/v2024-01-01/data/query/production?query=*%5B_type%3D%3D'product'%5D" ,
-
-    "query": "*[_type=='product']",
-    "result": [
-        {
-            "_createdAt": "2025-08-03T00:06:22Z",
-            "_id": "532d1262-3cde-4d5d-8400-736129bdb55c",
-            "_rev": "OpQKeFGENB13W8BYVoICmR",
-            "_type": "product",
-            "_updatedAt": "2025-08-03T00:08:21Z",
-            "category": {
-                "_ref": "90da3899-82cd-4542-b79e-cb1ec7a20cd4",
-                "_type": "reference"
-            },
-            "image": {
-                "_type": "image",
-                "asset": {
-                    "_ref": "image-5ec08ca499cb8d1f7261893dce1c6d80a58249c3-720x720-webp",
-                    "_type": "reference"
-                }
-            },
-            "imgHover": {
-                "_type": "image",
-                "asset": {
-                    "_ref": "image-38f45f4ff38105325808f7ef9c571fec92f39720-720x720-webp",
-                    "_type": "reference"
-                }
-            },
-            "isFeatured": true,
-            "name": "Nourishing Shampoo \u0026 Conditioner",
-            "price": 8,
-            "rating": 4.5,
-            "size": "500ml",
+[
+    {
+        "_id": "532d1262-3cde-4d5d-8400-736129bdb55c",
+        "category": {
+            "_id": "90da3899-82cd-4542-b79e-cb1ec7a20cd4",
             "slug": {
                 "_type": "slug",
-                "current": "nourishing-shampoo-and-conditioner"
-            }
+                "current": "body-and-hair"
+            },
+            "title": null
         },
-        {
-            "_createdAt": "2025-08-03T00:08:51Z",
-            "_id": "56e72ca0-7323-4e21-ae50-6d278e0d2150",
-            "_rev": "8b98Bdb9hXRIdpgc19jtuA",
-            "_system": {
-                "base": {
-                    "id": "56e72ca0-7323-4e21-ae50-6d278e0d2150",
-                    "rev": "OpQKeFGENB13W8BYVoID9f"
-                }
-            },
-            "_type": "product",
-            "_updatedAt": "2025-08-04T01:21:11Z",
-            "category": {
-                "_ref": "90da3899-82cd-4542-b79e-cb1ec7a20cd4",
-                "_type": "reference"
-            },
-            "description": "Conquer your day with Papatui Triple Action Complex Men's Antiperspirant and Deodorant. Formulated to fight sweat, block odor, and keep you feeling dry, it delivers long-lasting protection without compromise. Made with antioxidants and Vitamin E, it helps nourish your skin while locking in moisture. Lightweight, non-irritating, and designed for daily use, this stick fits easily into your gym bag, travel kit, or everyday routine.\n\nTAKE BETTER CARE™",
-            "images": [
-                {
-                    "_key": "8c25c9882a52",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-21e9a5e665b0bbc29d73b4e6bacd4ef1164a32c4-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "2dcdcf441d3d",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-79bb925bf5b137a6e302cdba6d9e6f8bd10bc745-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "a6c3c3b4a627",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-36a434413d471137fdc6214e66b390e97552f0eb-720x720-webp",
-                        "_type": "reference"
-                    }
-                }
-            ],
-            "isFeatured": false,
-            "name": "Triple Action Complex Men's Antiperspirant",
-            "price": 10,
-            "rating": 5,
-            "size": "70g",
-            "slug": {
-                "_type": "slug",
-                "current": "triple-action-complex-men-s-antiperspirant"
-            }
-        },
-        {
-            "_createdAt": "2025-08-04T01:36:25Z",
-            "_id": "61f1f9fb-c025-4a04-9ec7-a013db236e2c",
-            "_rev": "8b98Bdb9hXRIdpgc19kwb4",
-            "_type": "product",
-            "_updatedAt": "2025-08-04T01:38:02Z",
-            "category": {
-                "_ref": "a987585e-c57f-4961-837e-97cdc4af6455",
-                "_type": "reference"
-            },
-            "description": "This Sandalwood Suede bundle, with our proprietary 5-Star Resort \u0026 Spa scent, will keep you feeling confident and smelling great.",
-            "images": [
-                {
-                    "_key": "f15c243db7d7",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-6be1a763e6338ed2759a546b6b9c447170d78ad8-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "1f89ff0d51e9",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-96a94cdfaed4fcafe89aeb0ecfe08573ebf445cd-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "d84e5680463e",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-6f3ab5e28fd74f1738a5d91e227411be48385a22-720x720-webp",
-                        "_type": "reference"
-                    }
-                }
-            ],
-            "isFeatured": false,
-            "name": "Body Care Bundle",
-            "price": 26,
-            "rating": 5,
-            "slug": {
-                "_type": "slug",
-                "current": "body-care-bundle"
-            }
-        },
-        {
-            "_createdAt": "2025-08-02T23:38:04Z",
-            "_id": "70464d45-ce6a-47ac-ba2f-0597beed41b6",
-            "_rev": "LJJ2dPVFKx2EhGiZCBhZLu",
-            "_system": {
-                "base": {
-                    "id": "70464d45-ce6a-47ac-ba2f-0597beed41b6",
-                    "rev": "8b98Bdb9hXRIdpgc17nkJg"
-                }
-            },
-            "_type": "product",
-            "_updatedAt": "2025-08-04T01:31:46Z",
-            "category": {
-                "_ref": "d44ff123-dd2b-4fe7-89ec-1f88d64833cc",
-                "_type": "reference"
-            },
-            "description": "Refresh your skincare routine with Papatui Hydrating Men's Facial Cleanser. This non-stripping, unscented cleanser delivers and cleanses while preserving essential hydration. Formulated with skin-loving ingredients like Salicylic Acid and Vitamin B3, it gently cleanses impurities without over-drying. Designed for daily use and suitable for all skin types.",
-            "images": [
-                {
-                    "_key": "33a1fc172d58",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-35aecb757ab806bd66cd1e9c8887fc603f74780c-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "768370279bda",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-fb9a6367b94f99f5675c86b53f93b3abddfc1a54-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "9df2eee8569a",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-098c11a917235a184ae05a25f1dce09ee2063e74-720x720-jpg",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "6703495f79e0",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-1a4ae7d7d78e991374d383b46b328d003afb2c68-720x720-webp",
-                        "_type": "reference"
-                    }
-                }
-            ],
-            "isFeatured": true,
-            "name": "Hydrating Facial Cleanser",
-            "price": 10,
-            "rating": 5,
-            "size": "150",
-            "slug": {
-                "_type": "slug",
-                "current": "hydrating-facial-cleanser"
-            }
-        },
-        {
-            "_createdAt": "2025-08-02T23:52:20Z",
-            "_id": "82d79ec7-caf0-4f94-ae9d-d22858c7074b",
-            "_rev": "LJJ2dPVFKx2EhGiZCBhLUY",
-            "_system": {
-                "base": {
-                    "id": "82d79ec7-caf0-4f94-ae9d-d22858c7074b",
-                    "rev": "8b98Bdb9hXRIdpgc17nwEG"
-                }
-            },
-            "_type": "product",
-            "_updatedAt": "2025-08-04T01:27:00Z",
-            "category": {
-                "_ref": "d44ff123-dd2b-4fe7-89ec-1f88d64833cc",
-                "_type": "reference"
-            },
-            "description": "Level up your skincare game with Papatui Unscented Restoring Men's Facial Moisturizer. This lightweight, unscented moisturizer is fast-absorbing, non-greasy, and delivers all-day hydration with a matte finish. Made with Hyaluronic Acid and Niacinamide, it nourishes while helping to reduce the appearance of fine lines and wrinkles over time. Perfect for daily use on all skin types.",
-            "images": [
-                {
-                    "_key": "390735fc577a",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-9f8e984bcdb6323c132da958136009afa775ef65-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "26e80dea82a2",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-527a04712ab82217ef7f3a35a02fcd96e111af92-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "68b8c5bc962a",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-8b4861dc096d500da066236d91ec8a4ed0c3d810-720x720-webp",
-                        "_type": "reference"
-                    }
-                }
-            ],
-            "isFeatured": false,
-            "name": "Restoring Daily Facial Moisturizer",
-            "price": 7,
-            "priceBeforeSale": 10,
-            "rating": 4.5,
-            "size": "100ml",
-            "slug": {
-                "_type": "slug",
-                "current": "restoring-daily-facial-moisturizer"
-            }
-        },
-        {
-            "_createdAt": "2025-08-04T01:34:09Z",
-            "_id": "8395c30e-5ddf-439b-b9ac-ae5250db2071",
-            "_rev": "OpQKeFGENB13W8BYVoohb9",
-            "_type": "product",
-            "_updatedAt": "2025-08-04T01:35:59Z",
-            "category": {
-                "_ref": "a987585e-c57f-4961-837e-97cdc4af6455",
-                "_type": "reference"
-            },
-            "description": "This bundle will make your tattoos look incredible. Rejuvenate, brighten, and protect your ink. All you have to do is apply a smooth layer on top of your skin to insulate your tattoos from everyday wear. It boosts contrast while natural oils moisturize the skin.",
-            "images": [
-                {
-                    "_key": "7f7ca9ffbe17",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-76fb53aada40a05fc1ae23b6f1035c09938aef61-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "892318e30bdd",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-1ed7f5991874a5fa24aecf357cad748f29671a68-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "da3bbe5c13d7",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-5657747fdbb0d7616cde21b07caa3a21ed117c5a-720x720-webp",
-                        "_type": "reference"
-                    }
-                }
-            ],
-            "isFeatured": false,
-            "name": "Tattoo Care Bundle",
-            "price": 20,
-            "rating": 5,
-            "slug": {
-                "_type": "slug",
-                "current": "tattoo-care-bundle"
-            }
-        },
-        {
-            "_createdAt": "2025-08-04T01:40:37Z",
-            "_id": "b5ff4d98-1785-4ebd-9ae2-abe2e468ec9f",
-            "_rev": "LJJ2dPVFKx2EhGiZCBig2U",
-            "_type": "product",
-            "_updatedAt": "2025-08-04T01:42:11Z",
-            "category": {
-                "_ref": "a987585e-c57f-4961-837e-97cdc4af6455",
-                "_type": "reference"
-            },
-            "description": "Level up your grooming game with the Eye Revival Duo Bundle, the ultimate one-two punch for tired eyes. This power-packed bundle includes our best-selling Ageless Action Under Eye Patch packs (x2) and our Awakening Eye Gel tubes (x2), engineered to visibly reduce puffiness, dark circles, and fine lines in minutes. Stock up and save and you'll automatically qualify for FREE shipping, no codes or hassle required!",
-            "images": [
-                {
-                    "_key": "a9ebedc5dbd6",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-b1351d0f12ca5e0d8808a5f2ae42e6cac700d82f-720x723-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "beb7a676955d",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-2e5668a7aec76c4e6a22a618b3ee1841690463e5-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "958b608676eb",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-d981502e0a080b9c4a939aefbd12e008e5383eaa-720x720-webp",
-                        "_type": "reference"
-                    }
-                }
-            ],
-            "isFeatured": false,
-            "name": "Eye Revival Duo Bundle",
-            "price": 40,
-            "priceBeforeSale": 46,
-            "rating": 5,
-            "slug": {
-                "_type": "slug",
-                "current": "eye-revival-duo-bundle"
-            }
-        },
-        {
-            "_createdAt": "2025-08-03T00:03:26Z",
-            "_id": "b96f249e-1850-4611-b2b8-b65e62a5dede",
-            "_rev": "8b98Bdb9hXRIdpgc19jcCY",
-            "_system": {
-                "base": {
-                    "id": "b96f249e-1850-4611-b2b8-b65e62a5dede",
-                    "rev": "8b98Bdb9hXRIdpgc19Ec8c"
-                }
-            },
-            "_type": "product",
-            "_updatedAt": "2025-08-04T01:09:53Z",
-            "category": {
-                "_ref": "90da3899-82cd-4542-b79e-cb1ec7a20cd4",
-                "_type": "reference"
-            },
-            "description": "Elevate your shower routine with Papatui Enriching Men's Bar Soap. This 7 oz bar delivers an effective clean without harsh chemicals, perfect for daily use on all skin types. Made with nourishing mango butter and avocado oil, it washes away dirt, sweat, and grime while leaving your skin feeling soft, hydrated, and residue-free. Built for men who want high-quality skincare with clean ingredients, this bar soap offers a luxurious yet practical upgrade to your daily cleanse.",
-            "images": [
-                {
-                    "_key": "0de6ccc148d3",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-37a0315c1573c79e8bd6ff38c48d167579015708-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "d31a343d8e48",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-3c33cbb418224b71fcf61fcb2c6daf3ba3870ba9-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "71e8968c2c07",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-1479161797872e660ca72197b99cebea8c0b5320-720x720-webp",
-                        "_type": "reference"
-                    }
-                }
-            ],
-            "isFeatured": true,
-            "name": "Enriching Bar Soap",
-            "price": 7,
-            "priceBeforeSale": 8,
-            "rating": 5,
-            "size": "200g",
-            "slug": {
-                "_type": "slug",
-                "current": "enriching-bar-soap"
-            },
-            "usage": "gr"
-        },
-        {
-            "_createdAt": "2025-08-02T23:58:56Z",
-            "_id": "cfbb1788-0bb1-48e0-82d8-5c66346f192a",
-            "_rev": "LJJ2dPVFKx2EhGiZCBhEde",
-            "_system": {
-                "base": {
-                    "id": "cfbb1788-0bb1-48e0-82d8-5c66346f192a",
-                    "rev": "OpQKeFGENB13W8BYVoIBel"
-                }
-            },
-            "_type": "product",
-            "_updatedAt": "2025-08-04T01:23:09Z",
-            "category": {
-                "_ref": "90da3899-82cd-4542-b79e-cb1ec7a20cd4",
-                "_type": "reference"
-            },
-            "description": "Try New PAPATUI™ Full-Body Men's Deodorant Spray. Featuring PAPATUI's exclusive Triple Action Deodorizing Complex™, this aluminum-free invisible spray provides breakthrough full-body protection from shoulders to toes. Its odor-fighting, non-irritating, and hydrating formula keeps you feeling fresh and protected all day long with its long-lasting scent.",
-            "images": [
-                {
-                    "_key": "c31c4dee8da6",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-b23a1bcc59004c2b8b8a9e32d5fdd7b579dd59ec-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "36e7b276988f",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-048ff0f27642b1329c3dfe27d42d870c3424dad5-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "49f1d0db7ba2",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-821838fa9feeff0b0d7043acc4bde2fed26995ca-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "b258a9060544",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-e901199bc335fafea5160c71f75a4a5a3b2a8368-720x720-webp",
-                        "_type": "reference"
-                    }
-                }
-            ],
-            "isFeatured": true,
-            "name": "Full Body Aluminum Free Men's Spray Deodorant",
-            "price": 9,
-            "priceBeforeSale": 13,
-            "rating": 4,
-            "size": "140g",
-            "slug": {
-                "_type": "slug",
-                "current": "full-body-aluminum-free-men-s-spray-deodorant"
-            }
-        },
-        {
-            "_createdAt": "2025-08-04T01:38:30Z",
-            "_id": "d386b6e6-8a70-4271-81ae-cc23f2ca9f1e",
-            "_rev": "OpQKeFGENB13W8BYVootbf",
-            "_type": "product",
-            "_updatedAt": "2025-08-04T01:39:55Z",
-            "category": {
-                "_ref": "a987585e-c57f-4961-837e-97cdc4af6455",
-                "_type": "reference"
-            },
-            "description": "If you want to smell amazing and feel refreshed and invigorated - look no further than the ultimate shower bundle.\n\nThis bundle features our hydrating facial cleanser and a line-up of our shower essentials in Lush Coconut. With Lush Coconut you will smell great from head-to-toe. This Lush Coconut bundle is like a luxury island escape, it has everything you need to keep you clean and smelling amazing.",
-            "images": [
-                {
-                    "_key": "25bd81ca6c65",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-a0c11b81ad098b0e8d511ee36827c14e858ba288-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "645ef28544ba",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-672c4b1db8df7613ca47956afb0bf1db9722a3d8-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "e30e6583bdb6",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-44617672c9eff316d2fbab53615b5efa3c57a4db-720x720-webp",
-                        "_type": "reference"
-                    }
-                }
-            ],
-            "isFeatured": false,
-            "name": "Ultimate Shower Bundle",
-            "price": 30,
-            "priceBeforeSale": 36,
-            "slug": {
-                "_type": "slug",
-                "current": "ultimate-shower-bundle"
-            }
-        },
-        {
-            "_createdAt": "2025-08-02T23:48:15Z",
-            "_id": "ea38bdaa-5f1a-41c8-ab5d-df052500f7c4",
-            "_rev": "8b98Bdb9hXRIdpgc19k6yY",
-            "_system": {
-                "base": {
-                    "id": "ea38bdaa-5f1a-41c8-ab5d-df052500f7c4",
-                    "rev": "LJJ2dPVFKx2EhGiZC9m3eM"
-                }
-            },
-            "_type": "product",
-            "_updatedAt": "2025-08-04T01:28:54Z",
-            "category": {
-                "_ref": "d44ff123-dd2b-4fe7-89ec-1f88d64833cc",
-                "_type": "reference"
-            },
-            "description": "Level up your skincare game with Papatui Men's Exfoliating Facial Scrub, made with Volcanic Ash to gently remove impurities leaving your skin feeling fresh \u0026 radiant, helping to visibly reduce the appearance of fine lines and wrinkles.",
-            "images": [
-                {
-                    "_key": "4b0aff62d68f",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-41a821a090dde571a903e14b256893cf75c001eb-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "e0758dd5984d",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-79ca35c5f1a413d19d9ad2d80485fb77126373b7-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "6f35ae9f5d3b",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-00e32b80c457444e4074319a198703fcb40fdedb-720x720-webp",
-                        "_type": "reference"
-                    }
-                },
-                {
-                    "_key": "2b2db2b46e50",
-                    "_type": "image",
-                    "asset": {
-                        "_ref": "image-fb0bca84583fd9386a3acc9542567b8fb3b0257c-720x720-webp",
-                        "_type": "reference"
-                    }
-                }
-            ],
-            "isFeatured": false,
-            "name": "Agless Action Facial Exfoliatings Scrub",
-            "price": 10,
-            "priceBeforeSale": 13,
-            "rating": 4,
-            "size": "120ml",
-            "slug": {
-                "_type": "slug",
-                "current": "agless-action-facial-exfoliatings-scrub"
-            }
+        "description": null,
+        "hoverImageUrl": "https://cdn.sanity.io/images/x2ba2fw9/production/38f45f4ff38105325808f7ef9c571fec92f39720-720x720.webp",
+        "imageUrl": "https://cdn.sanity.io/images/x2ba2fw9/production/5ec08ca499cb8d1f7261893dce1c6d80a58249c3-720x720.webp",
+        "images": null,
+        "isFeatured": true,
+        "name": "Nourishing Shampoo & Conditioner",
+        "price": 8,
+        "rating": 4.5,
+        "size": "500ml",
+        "slug": {
+            "_type": "slug",
+            "current": "nourishing-shampoo-and-conditioner"
         }
-    ],
-    "syncTags": [
-        "s1:M75kEg"
-    ],
-    "ms": 8
-}
+    },
+    {
+        "_id": "56e72ca0-7323-4e21-ae50-6d278e0d2150",
+        "category": {
+            "_id": "90da3899-82cd-4542-b79e-cb1ec7a20cd4",
+            "slug": {
+                "_type": "slug",
+                "current": "body-and-hair"
+            },
+            "title": null
+        },
+        "description": "Conquer your day with Papatui Triple Action Complex Men's Antiperspirant and Deodorant. Formulated to fight sweat, block odor, and keep you feeling dry, it delivers long-lasting protection without compromise. Made with antioxidants and Vitamin E, it helps nourish your skin while locking in moisture. Lightweight, non-irritating, and designed for daily use, this stick fits easily into your gym bag, travel kit, or everyday routine.\n\nTAKE BETTER CARE™",
+        "hoverImageUrl": null,
+        "imageUrl": null,
+        "images": [
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/21e9a5e665b0bbc29d73b4e6bacd4ef1164a32c4-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/79bb925bf5b137a6e302cdba6d9e6f8bd10bc745-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/36a434413d471137fdc6214e66b390e97552f0eb-720x720.webp"
+            }
+        ],
+        "isFeatured": false,
+        "name": "Triple Action Complex Men's Antiperspirant",
+        "price": 10,
+        "rating": 5,
+        "size": "70g",
+        "slug": {
+            "_type": "slug",
+            "current": "triple-action-complex-men-s-antiperspirant"
+        }
+    },
+    {
+        "_id": "61f1f9fb-c025-4a04-9ec7-a013db236e2c",
+        "category": {
+            "_id": "a987585e-c57f-4961-837e-97cdc4af6455",
+            "slug": {
+                "_type": "slug",
+                "current": "bundles"
+            },
+            "title": null
+        },
+        "description": "This Sandalwood Suede bundle, with our proprietary 5-Star Resort & Spa scent, will keep you feeling confident and smelling great.",
+        "hoverImageUrl": null,
+        "imageUrl": null,
+        "images": [
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/6be1a763e6338ed2759a546b6b9c447170d78ad8-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/96a94cdfaed4fcafe89aeb0ecfe08573ebf445cd-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/6f3ab5e28fd74f1738a5d91e227411be48385a22-720x720.webp"
+            }
+        ],
+        "isFeatured": false,
+        "name": "Body Care Bundle",
+        "price": 26,
+        "rating": 5,
+        "size": null,
+        "slug": {
+            "_type": "slug",
+            "current": "body-care-bundle"
+        }
+    },
+    {
+        "_id": "70464d45-ce6a-47ac-ba2f-0597beed41b6",
+        "category": {
+            "_id": "d44ff123-dd2b-4fe7-89ec-1f88d64833cc",
+            "slug": {
+                "_type": "slug",
+                "current": "face-care"
+            },
+            "title": null
+        },
+        "description": "Refresh your skincare routine with Papatui Hydrating Men's Facial Cleanser. This non-stripping, unscented cleanser delivers and cleanses while preserving essential hydration. Formulated with skin-loving ingredients like Salicylic Acid and Vitamin B3, it gently cleanses impurities without over-drying. Designed for daily use and suitable for all skin types.",
+        "hoverImageUrl": null,
+        "imageUrl": null,
+        "images": [
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/35aecb757ab806bd66cd1e9c8887fc603f74780c-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/fb9a6367b94f99f5675c86b53f93b3abddfc1a54-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/098c11a917235a184ae05a25f1dce09ee2063e74-720x720.jpg"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/1a4ae7d7d78e991374d383b46b328d003afb2c68-720x720.webp"
+            }
+        ],
+        "isFeatured": true,
+        "name": "Hydrating Facial Cleanser",
+        "price": 10,
+        "rating": 5,
+        "size": "150",
+        "slug": {
+            "_type": "slug",
+            "current": "hydrating-facial-cleanser"
+        }
+    },
+    {
+        "_id": "82d79ec7-caf0-4f94-ae9d-d22858c7074b",
+        "category": {
+            "_id": "d44ff123-dd2b-4fe7-89ec-1f88d64833cc",
+            "slug": {
+                "_type": "slug",
+                "current": "face-care"
+            },
+            "title": null
+        },
+        "description": "Level up your skincare game with Papatui Unscented Restoring Men's Facial Moisturizer. This lightweight, unscented moisturizer is fast-absorbing, non-greasy, and delivers all-day hydration with a matte finish. Made with Hyaluronic Acid and Niacinamide, it nourishes while helping to reduce the appearance of fine lines and wrinkles over time. Perfect for daily use on all skin types.",
+        "hoverImageUrl": null,
+        "imageUrl": null,
+        "images": [
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/9f8e984bcdb6323c132da958136009afa775ef65-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/527a04712ab82217ef7f3a35a02fcd96e111af92-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/8b4861dc096d500da066236d91ec8a4ed0c3d810-720x720.webp"
+            }
+        ],
+        "isFeatured": false,
+        "name": "Restoring Daily Facial Moisturizer",
+        "price": 7,
+        "rating": 4.5,
+        "size": "100ml",
+        "slug": {
+            "_type": "slug",
+            "current": "restoring-daily-facial-moisturizer"
+        }
+    },
+    {
+        "_id": "8395c30e-5ddf-439b-b9ac-ae5250db2071",
+        "category": {
+            "_id": "a987585e-c57f-4961-837e-97cdc4af6455",
+            "slug": {
+                "_type": "slug",
+                "current": "bundles"
+            },
+            "title": null
+        },
+        "description": "This bundle will make your tattoos look incredible. Rejuvenate, brighten, and protect your ink. All you have to do is apply a smooth layer on top of your skin to insulate your tattoos from everyday wear. It boosts contrast while natural oils moisturize the skin.",
+        "hoverImageUrl": null,
+        "imageUrl": null,
+        "images": [
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/76fb53aada40a05fc1ae23b6f1035c09938aef61-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/1ed7f5991874a5fa24aecf357cad748f29671a68-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/5657747fdbb0d7616cde21b07caa3a21ed117c5a-720x720.webp"
+            }
+        ],
+        "isFeatured": false,
+        "name": "Tattoo Care Bundle",
+        "price": 20,
+        "rating": 5,
+        "size": null,
+        "slug": {
+            "_type": "slug",
+            "current": "tattoo-care-bundle"
+        }
+    },
+    {
+        "_id": "b5ff4d98-1785-4ebd-9ae2-abe2e468ec9f",
+        "category": {
+            "_id": "a987585e-c57f-4961-837e-97cdc4af6455",
+            "slug": {
+                "_type": "slug",
+                "current": "bundles"
+            },
+            "title": null
+        },
+        "description": "Level up your grooming game with the Eye Revival Duo Bundle, the ultimate one-two punch for tired eyes. This power-packed bundle includes our best-selling Ageless Action Under Eye Patch packs (x2) and our Awakening Eye Gel tubes (x2), engineered to visibly reduce puffiness, dark circles, and fine lines in minutes. Stock up and save and you'll automatically qualify for FREE shipping, no codes or hassle required!",
+        "hoverImageUrl": null,
+        "imageUrl": null,
+        "images": [
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/b1351d0f12ca5e0d8808a5f2ae42e6cac700d82f-720x723.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/2e5668a7aec76c4e6a22a618b3ee1841690463e5-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/d981502e0a080b9c4a939aefbd12e008e5383eaa-720x720.webp"
+            }
+        ],
+        "isFeatured": false,
+        "name": "Eye Revival Duo Bundle",
+        "price": 40,
+        "rating": 5,
+        "size": null,
+        "slug": {
+            "_type": "slug",
+            "current": "eye-revival-duo-bundle"
+        }
+    },
+    {
+        "_id": "b96f249e-1850-4611-b2b8-b65e62a5dede",
+        "category": {
+            "_id": "90da3899-82cd-4542-b79e-cb1ec7a20cd4",
+            "slug": {
+                "_type": "slug",
+                "current": "body-and-hair"
+            },
+            "title": null
+        },
+        "description": "Elevate your shower routine with Papatui Enriching Men's Bar Soap. This 7 oz bar delivers an effective clean without harsh chemicals, perfect for daily use on all skin types. Made with nourishing mango butter and avocado oil, it washes away dirt, sweat, and grime while leaving your skin feeling soft, hydrated, and residue-free. Built for men who want high-quality skincare with clean ingredients, this bar soap offers a luxurious yet practical upgrade to your daily cleanse.",
+        "hoverImageUrl": null,
+        "imageUrl": null,
+        "images": [
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/37a0315c1573c79e8bd6ff38c48d167579015708-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/3c33cbb418224b71fcf61fcb2c6daf3ba3870ba9-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/1479161797872e660ca72197b99cebea8c0b5320-720x720.webp"
+            }
+        ],
+        "isFeatured": true,
+        "name": "Enriching Bar Soap",
+        "price": 7,
+        "rating": 5,
+        "size": "200g",
+        "slug": {
+            "_type": "slug",
+            "current": "enriching-bar-soap"
+        }
+    },
+    {
+        "_id": "cfbb1788-0bb1-48e0-82d8-5c66346f192a",
+        "category": {
+            "_id": "90da3899-82cd-4542-b79e-cb1ec7a20cd4",
+            "slug": {
+                "_type": "slug",
+                "current": "body-and-hair"
+            },
+            "title": null
+        },
+        "description": "Try New PAPATUI™ Full-Body Men's Deodorant Spray. Featuring PAPATUI's exclusive Triple Action Deodorizing Complex™, this aluminum-free invisible spray provides breakthrough full-body protection from shoulders to toes. Its odor-fighting, non-irritating, and hydrating formula keeps you feeling fresh and protected all day long with its long-lasting scent.",
+        "hoverImageUrl": null,
+        "imageUrl": null,
+        "images": [
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/b23a1bcc59004c2b8b8a9e32d5fdd7b579dd59ec-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/048ff0f27642b1329c3dfe27d42d870c3424dad5-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/821838fa9feeff0b0d7043acc4bde2fed26995ca-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/e901199bc335fafea5160c71f75a4a5a3b2a8368-720x720.webp"
+            }
+        ],
+        "isFeatured": true,
+        "name": "Full Body Aluminum Free Men's Spray Deodorant",
+        "price": 9,
+        "rating": 4,
+        "size": "140g",
+        "slug": {
+            "_type": "slug",
+            "current": "full-body-aluminum-free-men-s-spray-deodorant"
+        }
+    },
+    {
+        "_id": "d386b6e6-8a70-4271-81ae-cc23f2ca9f1e",
+        "category": {
+            "_id": "a987585e-c57f-4961-837e-97cdc4af6455",
+            "slug": {
+                "_type": "slug",
+                "current": "bundles"
+            },
+            "title": null
+        },
+        "description": "If you want to smell amazing and feel refreshed and invigorated - look no further than the ultimate shower bundle.\n\nThis bundle features our hydrating facial cleanser and a line-up of our shower essentials in Lush Coconut. With Lush Coconut you will smell great from head-to-toe. This Lush Coconut bundle is like a luxury island escape, it has everything you need to keep you clean and smelling amazing.",
+        "hoverImageUrl": null,
+        "imageUrl": null,
+        "images": [
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/a0c11b81ad098b0e8d511ee36827c14e858ba288-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/672c4b1db8df7613ca47956afb0bf1db9722a3d8-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/44617672c9eff316d2fbab53615b5efa3c57a4db-720x720.webp"
+            }
+        ],
+        "isFeatured": false,
+        "name": "Ultimate Shower Bundle",
+        "price": 30,
+        "rating": null,
+        "size": null,
+        "slug": {
+            "_type": "slug",
+            "current": "ultimate-shower-bundle"
+        }
+    },
+    {
+        "_id": "drafts.532d1262-3cde-4d5d-8400-736129bdb55c",
+        "category": {
+            "_id": "90da3899-82cd-4542-b79e-cb1ec7a20cd4",
+            "slug": {
+                "_type": "slug",
+                "current": "body-and-hair"
+            },
+            "title": null
+        },
+        "description": null,
+        "hoverImageUrl": null,
+        "imageUrl": null,
+        "images": [
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/5ec08ca499cb8d1f7261893dce1c6d80a58249c3-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/38f45f4ff38105325808f7ef9c571fec92f39720-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/6a96210a73a5a73e98f7f5c8cd0418c10151e2d9-720x720.webp"
+            }
+        ],
+        "isFeatured": true,
+        "name": "Nourishing Shampoo & Conditioner",
+        "price": 8,
+        "rating": 4.5,
+        "size": "500ml",
+        "slug": {
+            "_type": "slug",
+            "current": "nourishing-shampoo-and-conditioner"
+        }
+    },
+    {
+        "_id": "ea38bdaa-5f1a-41c8-ab5d-df052500f7c4",
+        "category": {
+            "_id": "d44ff123-dd2b-4fe7-89ec-1f88d64833cc",
+            "slug": {
+                "_type": "slug",
+                "current": "face-care"
+            },
+            "title": null
+        },
+        "description": "Level up your skincare game with Papatui Men's Exfoliating Facial Scrub, made with Volcanic Ash to gently remove impurities leaving your skin feeling fresh & radiant, helping to visibly reduce the appearance of fine lines and wrinkles.",
+        "hoverImageUrl": null,
+        "imageUrl": null,
+        "images": [
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/41a821a090dde571a903e14b256893cf75c001eb-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/79ca35c5f1a413d19d9ad2d80485fb77126373b7-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/00e32b80c457444e4074319a198703fcb40fdedb-720x720.webp"
+            },
+            {
+                "url": "https://cdn.sanity.io/images/x2ba2fw9/production/fb0bca84583fd9386a3acc9542567b8fb3b0257c-720x720.webp"
+            }
+        ],
+        "isFeatured": false,
+        "name": "Agless Action Facial Exfoliatings Scrub",
+        "price": 10,
+        "rating": 4,
+        "size": "120ml",
+        "slug": {
+            "_type": "slug",
+            "current": "agless-action-facial-exfoliatings-scrub"
+        }
+    }
+]
+

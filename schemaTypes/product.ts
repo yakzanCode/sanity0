@@ -80,6 +80,18 @@ export const productType = defineType({
       initialValue: false
     }),
     defineField({
+      name: 'isNew',
+      title: 'New Product',
+      type: 'boolean',
+      initialValue: false
+    }),
+    defineField({
+      name: 'inStock',
+      title: 'Available Product',
+      type: 'boolean',
+      initialValue: true
+    }),
+    defineField({
       name: 'usage',
       title: 'Usage',
       type: 'string'
